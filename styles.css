@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* Variables de colores para mantener consistencia */
+:root {
+  --color-bg: #0f172a;       /* Color de fondo de la página */
+  --color-card: #1e293b;     /* Fondo de secciones y header */
+  --color-text: #e5e7eb;     /* Color principal del texto */
+  --color-accent: #22d3ee;   /* Color para títulos y enlaces importantes */
+  --color-muted: #94a3b8;    /* Color para textos secundarios */
+  --color-border: #334155;   /* Color de bordes y separadores */
+}
+
+/* Estilos globales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg); /* Fondo de la página */
+}
+
+/* Header: parte superior con foto y texto principal */
+header {
+  background: var(--color-card); /* Fondo del header */
+  padding: 20px 60px; /* Aumenta espacio a los lados para centrar mejor */
+  border-bottom: 2px solid var(--color-border); /* Línea inferior */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente */
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 4cm; /* Separación entre la foto y el texto */
+}
+
+.texto-perfil h1 {
+  margin: 0;
+  font-size: 2em;
+  color: var(--color-accent); /* Color destacado para el nombre */
+}
+
+.texto-perfil p {
+  margin: 5px 0;
+  color: var(--color-muted); /* Texto secundario para perfil */
+}
+
+.foto-perfil img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%; /* Foto circular */
+  border: 3px solid var(--color-accent); /* Borde color acento */
+}
+
+/* Navegación: barra de enlaces */
+nav {
+  background: var(--color-card);
+  padding: 12px 40px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Centra los enlaces */
+  margin: 0;
+  padding: 0;
+  gap: 15px; /* Separación entre enlaces */
+}
+
+nav ul li a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main: contenido principal dividido en dos columnas */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Secciones principales y lateral */
+  gap: 15px; /* Espacio entre secciones */
+}
+
+/* Secciones y aside: contenedores de información */
+section, aside {
+  background: var(--color-card);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+}
+
+section h2, aside h2 {
+  color: var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 5px;
+}
+
+article h3 {
+  color: var(--color-text);
+  margin-top: 10px;
+}
+
+/* Footer: pie de página */
+footer {
+  background: var(--color-card);
+  color: var(--color-muted);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 12px;
+}
