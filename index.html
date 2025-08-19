@@ -1,92 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hoja de Vida - Wilderman González</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Jeferson Wilderman Gonzalez</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        header, section, aside, footer {
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 1em;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        section h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+        }
+
+        article {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        article h4 {
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        article p {
+            font-size: 0.9em;
+            margin-bottom: 3px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .skills {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .skill {
+            display: inline-block;
+            border: 1px solid #000;
+            padding: 3px 8px;
+            margin: 3px;
+            border-radius: 3px;
+            font-size: 0.85em;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        footer {
+            border-top: 1px solid #000;
+            padding-top: 10px;
+            font-size: 0.85em;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-  <header role="banner">
-    <div class="header-content">
-      <div class="texto-perfil">
+
+<div class="container">
+
+    <header>
         <h1>Jeferson Wilderman Gonzalez Tenjo</h1>
-        <p>Ingeniero de Software en Proceso | Director en AVC Contractor Colombia  | Intech Enginnering Inc. Panama</p>
-        <p class="badge">Bogotá, Colombia</p>
-      </div>
-      <figure class="foto-perfil">
-        <img src="img/foto-perfil.jpg" alt="Foto de Wilderman González">
-      </figure>
-    </div>
-  </header>
+        <h2>Ingeniero de Software en Proceso | Director en AVC Contractor Colombia | Intech Engineering Inc. Panamá</h2>
+        <p>Bogotá, Colombia</p>
+    </header>
 
-  <nav role="navigation" aria-label="Menú principal">
-    <ul>
-      <li><a href="#perfil">Perfil</a></li>
-      <li><a href="#experiencia">Experiencia</a></li>
-      <li><a href="#educacion">Educación</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
-
-  <main role="main">
-    <section id="perfil" aria-labelledby="titulo-perfil">
-      <h2 id="titulo-perfil">Perfil Profesional</h2>
-      <p>Ingeniero Audiovisual con más de 8 años de experiencia en el diseño, implementación y gestión de sistemas AV integrados sobre redes IP. Actualmente en proceso de formación como Ingeniero de Software, con sólida base técnica en instalación de redes y mantenimiento de computadores. Experto en la instalación y configuración de sistemas IT y audiovisuales, así como en el desarrollo de proyectos multimedia complejos, con habilidades comprobadas en liderazgo, gestión de proyectos y creación de soluciones tecnológicas innovadoras.
-
-Certificado en tecnologías líderes como AVIXA, Huawei, Cisco, Dante, Barco y Yamaha, con experiencia en integración de hardware especializado con software personalizado para optimizar la experiencia audiovisual y la eficiencia operativa. Capaz de diseñar soluciones técnicas completas, que combinan programación, automatización y control de sistemas, adaptándose a las necesidades de entornos corporativos, educativos y de entretenimiento. Profesional orientado a la innovación, con pensamiento analítico y capacidad para liderar equipos multidisciplinarios en proyectos de alto impacto.</p>
+    <section>
+        <h3>Perfil Profesional</h3>
+        <p>Ingeniero Audiovisual con más de 8 años de experiencia en el diseño, implementación y gestión de sistemas AV integrados sobre redes IP. Actualmente en proceso de formación como Ingeniero de Software, con sólida base técnica en instalación de redes y mantenimiento de computadores. Experto en la instalación y configuración de sistemas IT y audiovisuales, así como en el desarrollo de proyectos multimedia complejos, con habilidades comprobadas en liderazgo, gestión de proyectos y creación de soluciones tecnológicas innovadoras. Certificado en tecnologías líderes como AVIXA, Huawei, Cisco, Dante, Barco y Yamaha, con experiencia en integración de hardware especializado con software personalizado para optimizar la experiencia audiovisual y la eficiencia operativa. Capaz de diseñar soluciones técnicas completas, que combinan programación, automatización y control de sistemas, adaptándose a las necesidades de entornos corporativos, educativos y de entretenimiento. Profesional orientado a la innovación, con pensamiento analítico y capacidad para liderar equipos multidisciplinarios en proyectos de alto impacto.</p>
     </section>
 
-    <section id="experiencia" aria-labelledby="titulo-experiencia">
-      <h2 id="titulo-experiencia">Experiencia</h2>
-      <article aria-labelledby="exp-director">
-        <h3 id="exp-director">Director</h3>
-        <p><strong>AVC Contractor Colombia</strong> | 2022 - Actualidad</p>
-        <p>Gestión de proyectos IT y audiovisuales, liderazgo de equipos y dirección estratégica.</p>
-      </article>
-      <article aria-labelledby="exp-tecnico">
-        <h3 id="exp-tecnico">Técnico en Sistemas AV</h3>
-        <p><strong>Intech Engineering (Panamá)</strong> | 2019 - 2021</p>
-        <p>Instalación de sistemas audiovisuales, integración de soluciones corporativas y soporte técnico.</p>
-      </article>
+    <section>
+        <h3>Experiencia</h3>
+        <article>
+            <h4>Director | AVC Contractor Colombia</h4>
+            <p>2022 - Actualidad</p>
+            <p>Gestión de proyectos IT y audiovisuales, liderazgo de equipos y dirección estratégica.</p>
+        </article>
+        <article>
+            <h4>Técnico en Sistemas AV | Intech Engineering (Panamá)</h4>
+            <p>2019 - 2021</p>
+            <p>Instalación de sistemas audiovisuales, integración de soluciones corporativas y soporte técnico.</p>
+        </article>
     </section>
 
-    <section id="educacion" aria-labelledby="titulo-educacion">
-      <h2 id="titulo-educacion">Educación & Certificaciones</h2>
-      <article aria-labelledby="edu-software">
-        <h3 id="edu-software">Ingeniería de Software (en curso)</h3>
-        <h4 id="edu-software">Universidad San Buenaventura </h4>
-        <p>Énfasis en bases de datos, Python y JavaScript</p>
-      </article>
-      <article aria-labelledby="edu-tecnico">
-        <h3 id="edu-tecnico">Técnico en instalación de redes y mantenimiento de computadores</h3>
-        <p>INCAP (2017)</p>
-      </article>
-      <article aria-labelledby="edu-certificaciones">
-        <h3 id="edu-certificaciones">Certificaciones</h3>
-        <p>Cisco IT Essentials (2023) · Audinate Dante Nivel 1 (2018) · Avixxa LATAM (CTS/industria AV, 2018) · Huawei (HFC, fibra, FLM, wireless, 2018)</p>
-      </article>
+    <section>
+        <h3>Educación & Certificaciones</h3>
+        <article>
+            <h4>Ingeniería de Software (en curso) | Universidad San Buenaventura</h4>
+            <p>Énfasis en bases de datos, Python y JavaScript</p>
+        </article>
+        <article>
+            <h4>Técnico en instalación de redes y mantenimiento de computadores | INCAP</h4>
+            <p>2017</p>
+        </article>
+        <article>
+            <h4>Certificaciones</h4>
+            <ul>
+                <li>Cisco IT Essentials (2023)</li>
+                <li>Audinate Dante Nivel 1 (2018)</li>
+                <li>Avixxa LATAM (CTS/industria AV, 2018)</li>
+                <li>Huawei (HFC, fibra, FLM, wireless, 2018)</li>
+            </ul>
+        </article>
     </section>
 
-    <section id="habilidades" aria-labelledby="titulo-habilidades">
-      <h2 id="titulo-habilidades">Habilidades</h2>
-      <article>
-        <p>MySQL, Python, JavaScript, MVC (Java/Swing), QSC, Zoom/Teams Rooms, CCTV, videowalls, digital signage, automatización de salas, redes (cableado, fibra, wireless), liderazgo, gestión de proyectos, metodologías ágiles, coordinación de equipos.</p>
-      </article>
+    <section>
+        <h3>Habilidades</h3>
+        <div class="skills">
+            <span class="skill">MySQL</span>
+            <span class="skill">Python</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">MVC (Java/Swing)</span>
+            <span class="skill">QSC</span>
+            <span class="skill">Zoom/Teams Rooms</span>
+            <span class="skill">CCTV</span>
+            <span class="skill">Videowalls</span>
+            <span class="skill">Digital Signage</span>
+            <span class="skill">Automatización de Salas</span>
+            <span class="skill">Redes (Cableado, Fibra, Wireless)</span>
+            <span class="skill">Liderazgo</span>
+            <span class="skill">Gestión de Proyectos</span>
+            <span class="skill">Metodologías Ágiles</span>
+            <span class="skill">Coordinación de Equipos</span>
+        </div>
     </section>
 
-    <aside id="contacto" role="complementary" aria-labelledby="titulo-contacto">
-      <h2 id="titulo-contacto">Contacto</h2>
-      <p><strong>Correo:</strong> Wildermangt@gmail.com</p>
-      <p><strong>Teléfono:</strong> +57 3227924569</p>
-      <p><strong>LinkedIn:</strong> www.linkedin.com/in/jefersonwildermangonzaleztenjo</p>
+    <aside>
+        <h3>Contacto</h3>
+        <ul>
+            <li>Correo: <a href="mailto:Wildermangt@gmail.com">Wildermangt@gmail.com</a></li>
+            <li>Teléfono: +57 3227924569</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/jefersonwildermangonzaleztenjo" target="_blank">linkedin.com/in/jefersonwildermangonzaleztenjo</a></li>
+        </ul>
     </aside>
-  </main>
 
-  <footer role="contentinfo">
-    <p>Hoja de vida actualizada 2025.</p>
-  </footer>
+    <footer>
+        Hoja de vida web ATS-friendly - Jeferson Wilderman Gonzalez
+    </footer>
+
+</div>
+
 </body>
 </html>
-
