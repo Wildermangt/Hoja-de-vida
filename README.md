@@ -6,6 +6,13 @@ que la lea una persona y otra pensada para que la lea una máquina.
 **Jeferson Wilderman González Tenjo** — Ingeniería de Sistemas
 Bogotá, Colombia
 
+### 👉 [Verla en línea](https://wildermangt.github.io/Hoja-de-vida/)
+
+| | |
+|---|---|
+| 🖥️ [Versión para leer](https://wildermangt.github.io/Hoja-de-vida/hoja-de-vida.html) | 🤖 [Versión ATS](https://wildermangt.github.io/Hoja-de-vida/hoja-de-vida-ATS.html) |
+| 📄 [PDF](https://wildermangt.github.io/Hoja-de-vida/Hoja%20de%20Vida%20-%20Jeferson%20Wilderman%20Gonzalez.pdf) | 📄 [PDF ATS](https://wildermangt.github.io/Hoja-de-vida/Hoja%20de%20Vida%20-%20Jeferson%20Wilderman%20Gonzalez%20ATS.pdf) |
+
 ---
 
 ## Por qué hay dos versiones
