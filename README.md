@@ -3,7 +3,7 @@
 Mi hoja de vida en formato web y en PDF, en dos versiones: una pensada para
 que la lea una persona y otra pensada para que la lea una máquina.
 
-**Jeferson Wilderman González Tenjo** — Ingeniería de Sistemas
+**Jeferson Wilderman González Tenjo** — Desarrollador backend · Tecnología en Desarrollo de Software (en curso)
 Bogotá, Colombia
 
 ### 👉 [Verla en línea](https://wildermangt.github.io/Hoja-de-vida/)
@@ -31,10 +31,10 @@ que ni se ve bien ni se lee bien. Por eso son dos:
 | `hoja-de-vida.html` | Para una persona | Maquetación con jerarquía visual, fotografía y secciones diferenciadas |
 | `hoja-de-vida-ATS.html` | Para un ATS | Una sola columna, texto plano, encabezados estándar, sin imágenes ni tablas |
 
-Cada una tiene su PDF ya exportado:
+Cada una tiene su PDF:
 
-- `Hoja de Vida - Jeferson Wilderman Gonzalez.pdf`
-- `Hoja de Vida - Jeferson Wilderman Gonzalez ATS.pdf`
+- `Hoja de Vida - Jeferson Wilderman Gonzalez.pdf` — hoja de vida con foco backend
+- `Hoja de Vida - Jeferson Wilderman Gonzalez ATS.pdf` — versión ATS de dos páginas
 
 ## Estructura
 
@@ -43,7 +43,7 @@ hoja-de-vida.html          versión para leer
 hoja-de-vida-ATS.html      versión para el filtro automático
 styles.css                 estilos compartidos
 img/foto-perfil.jpg        fotografía
-*.pdf                      las dos versiones ya exportadas
+*.pdf                      las dos versiones en PDF
 ```
 
 Es HTML y CSS sin dependencias: se abre con doble clic, sin compilar ni instalar
